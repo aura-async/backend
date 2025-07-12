@@ -1,0 +1,28 @@
+# Production-Ready Requirements for Python 3.11
+# Core FastAPI and server dependencies
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+aiofiles==0.8.0
+python-dotenv==1.0.0
+pydantic==2.5.0
+requests==2.31.0
+
+# Computer Vision and Image Processing
+opencv-python-headless==4.9.0.80
+Pillow==10.3.0
+
+# Machine Learning and Data Science
+scikit-learn==1.4.2
+numpy==1.26.4
+joblib==1.4.2
+
+# Authentication and Security
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+
+# HTTP and API utilities
+httpx==0.27.0
+
+# Color analysis
+colorama==0.4.6
