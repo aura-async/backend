@@ -1,0 +1,7 @@
+product_id,product_name,price,image_url,affiliate_link,category,color,gender
+1,"Classic White Button-Down Shirt","₹1,499","https://example.com/images/white-shirt.jpg","https://example.com/products/white-shirt","Tops","White","male"
+2,"Black Slim-Fit Trousers","₹2,299","https://example.com/images/black-trousers.jpg","https://example.com/products/black-trousers","Bottoms","Black","male"
+3,"Navy Blue Blazer","₹3,999","https://example.com/images/navy-blazer.jpg","https://example.com/products/navy-blazer","Outerwear","Blue","male"
+4,"Floral Print Maxi Dress","₹2,499","https://example.com/images/floral-dress.jpg","https://example.com/products/floral-dress","Dresses","Multicolor","female"
+5,"High-Waisted Skinny Jeans","₹1,899","https://example.com/images/skinny-jeans.jpg","https://example.com/products/skinny-jeans","Bottoms","Blue","female"
+6,"Embellished Evening Gown","₹5,999","https://example.com/images/evening-gown.jpg","https://example.com/products/evening-gown","Dresses","Red","female"

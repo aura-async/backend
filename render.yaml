@@ -1,0 +1,25 @@
+# AuraSync Lightweight Backend Deployment
+
+services:
+  # Backend API web service
+  - type: web
+    name: aurasync-backend
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn -k uvicorn.workers.UvicornWorker startup:app
+    envVars:
+      - key: PYTHONUNBUFFERED
+        value: 1
+      - key: FASTAPI_ENV
+        value: production
+      - key: PORT
+        value: 8000
+      - key: CORS_ORIGINS
+        value: '["https://auraasync.in", "https://www.auraasync.in"]'
+      - key: SECRET_KEY
+        generateValue: true
+    healthCheckPath: /health
+    autoDeploy: true
+    
+    # Resource limits - use free tier since we're not loading large models
+    plan: free
